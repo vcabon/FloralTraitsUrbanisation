@@ -2,7 +2,7 @@
 
 Author: Valentin Cabon, Collaborators: Alice Kracht, Birgit Seitz, Ingo Kowarik, Moritz von der Lippe, Sascha Buchholz
 
-This repository provides R codes and data to reproduce the analysis described in the submitted manuscript "Urbanisation modulates the attractiveness of plant communities to pollinators by filtering for floral traits". The analysis aims to understand to which extent floral traits known to attract pollinators are filtered by abiotic versus biotic factors in urban environments. The dataset contains information about 47 study sites ditributed along an urbanisation gradient in berlin and surrounding, Germany.  
+This repository provides R codes and data to reproduce the analysis described in the submitted manuscript "Urbanisation modulates the attractiveness of plant communities to pollinators by filtering for floral traits". The analysis aims to understand to which extent floral traits known to attract pollinators are filtered by abiotic versus biotic factors in urban environments. The dataset contains information about 47 study sites ditributed along an urbanisation gradient in Berlin and surrounding, Germany.  
 
 # Data
 
