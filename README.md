@@ -10,4 +10,4 @@ The provided dataset (Data/ANALYSES_floral_traits_urbanisation.csv) contains the
 
 # Run the scripts
 
-Run the main script (Scripts/Main_run_analysis.R) will load the needed R-packages, import the data, run the models and export the plots used as figure in the manuscript. The figures in .PNG format are exported in the Export/ folder.
+Run the main script (Scripts/Main_run_analysis.R) will load the needed R-packages, import the data, run the models and export the plots used as illustrations in the manuscript. The figures in .PNG format are exported in the Export/ folder.
