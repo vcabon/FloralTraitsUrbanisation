@@ -15,6 +15,7 @@ summary(blue_glm_quasibinom3)
 
 blue_glm_quasibinom4 <- update(blue_glm_quasibinom3,~.-Conn_Green1 ) 
 summary(blue_glm_quasibinom4)
+
 blue_glm_quasibinom5 <- update(blue_glm_quasibinom4,~.-Proportion_WB) 
 summary(blue_glm_quasibinom5)
 
