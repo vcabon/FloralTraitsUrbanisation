@@ -1,4 +1,4 @@
-# Urbanisation and filtering of floral traits
+# Floral traits and urbanisation
 
 Author: Valentin Cabon, Collaborators: Alice Kracht, Birgit Seitz, Ingo Kowarik, Moritz von der Lippe, Sascha Buchholz
 
