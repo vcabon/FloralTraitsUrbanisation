@@ -3,13 +3,13 @@
 Green_Temp <- ggplot(green_glm_quasibinom3, aes_string(x = names(green_glm_quasibinom3$model)[3], y = Percent_green )) +
 # + geom_ribbon(stat = "smooth", method = "lm", fill="azure2") 
 # + stat_smooth(method = "glm", se= FALSE, color="black", lwd= 1.2)
-theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=3) 
+theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=2.5) 
 Green_Temp <- Green_Temp+labs(x="Mean of daily temperature", y= "Proportion 'green + UV-green'")
 
 Green_SVF <- ggplot(green_glm_quasibinom3, aes_string(x = names(green_glm_quasibinom3$model)[4], y = Percent_green )) + 
     # + geom_ribbon(stat = "smooth", method = "lm", fill="azure2") 
     # + stat_smooth(method = "glm", se= FALSE, color="black", lwd= 1.2) 
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=3) 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=2.5) 
 Green_SVF <- Green_SVF+labs(x="SVF", y= "Proportion 'green + UV-green'")
 
 
@@ -18,7 +18,7 @@ Green_SVF <- Green_SVF+labs(x="SVF", y= "Proportion 'green + UV-green'")
 UVpattern_Seal <- ggplot(UV_Pattern_glm_quasibinom2, aes_string(x = names(UV_Pattern_glm_quasibinom2$model)[2], y = Percent_UV_pattern )) + 
     # + geom_ribbon(stat = "smooth", method = "lm", fill="azure2") 
     # + stat_smooth(method = "glm", se= FALSE, color="black", lwd= 1.2) 
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=3) 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=2.5) 
 UVpattern_Seal <- UVpattern_Seal+labs(x="Proportion impervious surface", y= "Proportion UV patterns")
 
 
@@ -27,7 +27,7 @@ UVpattern_Seal <- UVpattern_Seal+labs(x="Proportion impervious surface", y= "Pro
 UVstrength_Seal <- ggplot(CWM_UV_perif_glm_gauss_conn6, aes_string(x = names(CWM_UV_perif_glm_gauss_conn6$model)[2], y = CWM_UV_perif )) +
     # + geom_ribbon(stat = "smooth", method = "lm", fill="azure2") 
     # + stat_smooth(method = "glm", se= FALSE, color="black", lwd= 1.2) 
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=3) 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=2.5) 
 UVstrength_Seal <- UVstrength_Seal+labs(x="Proportion of impervious surface", y= "UV reflectance strength")
 
 
@@ -36,19 +36,19 @@ UVstrength_Seal <- UVstrength_Seal+labs(x="Proportion of impervious surface", y=
 SizeDiv_Seal <- ggplot(RaoQ_size_flower_glm_nb5, aes_string(x = names(RaoQ_size_flower_glm_nb5$model)[2], y = RaoQ_size_flower )) + 
     # + geom_ribbon(stat = "smooth", method = "lm", fill="azure2") 
     # + stat_smooth(method = "glm", se= FALSE, color="black", lwd= 1.2) 
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=3) 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=2.5) 
 SizeDiv_Seal <- SizeDiv_Seal+labs(x="Proportion of impervious surface", y= "flower size diversity")
 
 SizeDiv_SVF <- ggplot(RaoQ_size_flower_glm_nb5, aes_string(x = names(RaoQ_size_flower_glm_nb5$model)[3], y = RaoQ_size_flower )) + 
     # + geom_ribbon(stat = "smooth", method = "lm", fill="azure2") 
     # + stat_smooth(method = "glm", se= FALSE, color="black", lwd= 1.2) 
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=3) + geom_point(size=3) 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=2.5)  
 SizeDiv_SVF <- SizeDiv_SVF+labs(x="SVF", y= "flower size diversity")
 
 SizeDiv_Bees <- ggplot(RaoQ_size_flower_glm_nb5, aes_string(x = names(RaoQ_size_flower_glm_nb5$model)[4], y = RaoQ_size_flower )) + 
     # + geom_ribbon(stat = "smooth", method = "lm", fill="azure2") 
     # + stat_smooth(method = "glm", se= FALSE, color="black", lwd= 1.2) 
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=3) 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_point(size=2.5) 
 SizeDiv_Bees <- SizeDiv_Bees+labs(x="Proportion of bees", y= "flower size diversity")
 
 # plots flower size
@@ -66,7 +66,7 @@ Size_RichPoll <- ggplot(CWM_size_flower_glm_nb4, aes_string(x = names(CWM_size_f
 Size_RichPoll <- Size_RichPoll+labs(x="richness pollinators", y= "flower size")
 
 
-# export Plots as PNG files 
+# export Plots as JPG files 
 
 ggsave(filename="Exports/Green_Temp.jpg", plot=Green_Temp)
 ggsave(filename="Exports/Green_SVF.jpg", plot=Green_SVF)
