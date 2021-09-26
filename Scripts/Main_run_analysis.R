@@ -5,6 +5,7 @@
 library("rsq")
 library("car")
 library("ggplot2")
+library("patchwork")
 
 # Load dataset
 
